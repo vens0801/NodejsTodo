@@ -1,0 +1,24 @@
+###
+
+
+GET https://venkateswaran4va8jnjscadoqbs.drops.nxtwave.tech/todos/
+
+###
+
+GET https://venkateswaran4va8jnjscadoqbs.drops.nxtwave.tech/agenda/?date=2021-02-30
+
+###
+
+POST https://venkateswaran4va8jnjscadoqbs.drops.nxtwave.tech/todos/
+Content-type: application/json
+
+{
+    "id": 5,
+    "todo": "Clean",
+    "priority": "HIGH",
+    "status": "DONE",
+    "category": "HOME",
+    "dueDate": "2022-02-20"
+}
+
+DELETE https://venkateswaran4va8jnjscadoqbs.drops.nxtwave.tech/todos/5/
